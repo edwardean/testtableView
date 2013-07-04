@@ -19,7 +19,6 @@
 		0877511E174497E9001F2140 /* AListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0877511D174497E9001F2140 /* AListViewController.m */; };
 		087751C71744DBF7001F2140 /* BackgroundTextures.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B21744DBF7001F2140 /* BackgroundTextures.png */; };
 		087751C81744DBF7001F2140 /* BackgroundTextures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B31744DBF7001F2140 /* BackgroundTextures@2x.png */; };
-		087751C91744DBF7001F2140 /* 设计.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B41744DBF7001F2140 /* 设计.png */; };
 		087751CA1744DBF7001F2140 /* ZHCellBottomHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B51744DBF7001F2140 /* ZHCellBottomHighlight.png */; };
 		087751CB1744DBF7001F2140 /* ZHCellBottomHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B61744DBF7001F2140 /* ZHCellBottomHighlight@2x.png */; };
 		087751CC1744DBF7001F2140 /* ZHCellBottomNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751B71744DBF7001F2140 /* ZHCellBottomNormal.png */; };
@@ -38,6 +37,7 @@
 		087751D91744DBF7001F2140 /* ZHCellTopNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751C41744DBF7001F2140 /* ZHCellTopNormal@2x.png */; };
 		087751DA1744DBF7001F2140 /* ZHListViewArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751C51744DBF7001F2140 /* ZHListViewArrowRight.png */; };
 		087751DB1744DBF7001F2140 /* ZHListViewArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087751C61744DBF7001F2140 /* ZHListViewArrowRight@2x.png */; };
+		CA87D87D178541900058DCE3 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA87D87C178541900058DCE3 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,6 @@
 		0877511D174497E9001F2140 /* AListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AListViewController.m; sourceTree = "<group>"; };
 		087751B21744DBF7001F2140 /* BackgroundTextures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundTextures.png; sourceTree = "<group>"; };
 		087751B31744DBF7001F2140 /* BackgroundTextures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundTextures@2x.png"; sourceTree = "<group>"; };
-		087751B41744DBF7001F2140 /* 设计.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设计.png"; sourceTree = "<group>"; };
 		087751B51744DBF7001F2140 /* ZHCellBottomHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZHCellBottomHighlight.png; sourceTree = "<group>"; };
 		087751B61744DBF7001F2140 /* ZHCellBottomHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZHCellBottomHighlight@2x.png"; sourceTree = "<group>"; };
 		087751B71744DBF7001F2140 /* ZHCellBottomNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZHCellBottomNormal.png; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		087751C41744DBF7001F2140 /* ZHCellTopNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZHCellTopNormal@2x.png"; sourceTree = "<group>"; };
 		087751C51744DBF7001F2140 /* ZHListViewArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZHListViewArrowRight.png; sourceTree = "<group>"; };
 		087751C61744DBF7001F2140 /* ZHListViewArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZHListViewArrowRight@2x.png"; sourceTree = "<group>"; };
+		CA87D87C178541900058DCE3 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		087751B11744DBF7001F2140 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				087751B41744DBF7001F2140 /* 设计.png */,
+				CA87D87C178541900058DCE3 /* demo.png */,
 				087751B21744DBF7001F2140 /* BackgroundTextures.png */,
 				087751B31744DBF7001F2140 /* BackgroundTextures@2x.png */,
 				087751B51744DBF7001F2140 /* ZHCellBottomHighlight.png */,
@@ -233,7 +233,6 @@
 				0877511B174497E9001F2140 /* Default-568h@2x.png in Resources */,
 				087751C71744DBF7001F2140 /* BackgroundTextures.png in Resources */,
 				087751C81744DBF7001F2140 /* BackgroundTextures@2x.png in Resources */,
-				087751C91744DBF7001F2140 /* 设计.png in Resources */,
 				087751CA1744DBF7001F2140 /* ZHCellBottomHighlight.png in Resources */,
 				087751CB1744DBF7001F2140 /* ZHCellBottomHighlight@2x.png in Resources */,
 				087751CC1744DBF7001F2140 /* ZHCellBottomNormal.png in Resources */,
@@ -252,6 +251,7 @@
 				087751D91744DBF7001F2140 /* ZHCellTopNormal@2x.png in Resources */,
 				087751DA1744DBF7001F2140 /* ZHListViewArrowRight.png in Resources */,
 				087751DB1744DBF7001F2140 /* ZHListViewArrowRight@2x.png in Resources */,
+				CA87D87D178541900058DCE3 /* demo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
